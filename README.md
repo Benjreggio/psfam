@@ -1,6 +1,14 @@
-# Psfam Documentation
 
-The Psfam package is a python package which organizes the complete set of pauli strings of any size into commuting families for VQE, finding a unitary matrix from clifford operators which diagonalizes all of the strings, and implementing this unitary matrix on a qiskit circuit.
+
+The psfam package is a python package which organizes the complete set of pauli strings of any size into commuting families for VQE, finding a unitary matrix from clifford operators which diagonalizes all of the strings, and implementing this unitary matrix on a qiskit circuit.
+
+psfam can be installed with 
+
+```
+pip install psfam
+```
+
+## Usage
 
 Below are instructions on how to use the Psfam package. It will show the process of using a PauliOrganizer object to partition strings, then calculating an expectation value on a qiskit simulator.
 
@@ -141,7 +149,7 @@ qc.draw('mpl')
 
 
     
-![](https://raw.githubusercontent.com/Benjreggio/psfamtest/blob/main/output_15_0.png)
+![Cirucit diagram](https://github.com/Benjreggio/psfam/raw/main/output_15_0.png)
     
 
 
@@ -165,7 +173,7 @@ qiskit.visualization.plot_histogram(counts)
 
 
     
-![png](output_17_1.png)
+![Counts histogram](https://github.com/Benjreggio/psfam/raw/main/output_17_1.png)
     
 
 
